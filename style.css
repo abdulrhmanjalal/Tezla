@@ -91,6 +91,8 @@ h1{
 
 .buttons{
     padding:0 5%;
+    position: relative;
+    bottom: 65px;
 }
 
 .btn{
