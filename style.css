@@ -45,10 +45,6 @@ html{
     justify-content: space-between;
 }
 
-.nav-bar img{
-
-}
-
 .nav-bar ul{
     list-style: none;
     padding: 0;
@@ -69,10 +65,26 @@ html{
     text-decoration: none;
     color:var(--main-color);
     padding:15px;
+    font-weight: bold;
     /* 300ms then the hover happens */
     transition: var(--transition-time);
 }
 
 .nav-link:hover {
     color:var(--secondary-color);
+}
+
+/* Main section */
+
+#main-section{
+    height: 100vh;
+    background: url("assets/bg.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-weight: black;
+    font-size: 5rem;
+    color:var(--main-color);
+    padding:2% 5%;
 }
