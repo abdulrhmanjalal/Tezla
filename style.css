@@ -1,0 +1,78 @@
+/* Global Variables */
+:root{
+    --main-color:#740702;
+    --secondary-color:#d62222;
+    --nit:#545454;
+    --border-size:2px;
+    --transition-time:300ms;
+}
+/* Over all styling */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap');
+
+
+body{
+    padding:0;
+    margin:0;
+    font-family: "Montserrat";
+}
+
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: black;
+}
+
+/* Custom classes */
+
+.width-50{
+    width:50px;
+}
+
+.width-150{
+    width:150;
+}
+
+.border-right{
+    border: var(--main-color) var(--border-size);
+    border-style:none;
+    border-left-style: solid;
+}
+
+/* Nav bar */
+
+.nav-bar{
+    display: flex;
+    padding:2% 5%;
+    justify-content: space-between;
+}
+
+.nav-bar img{
+
+}
+
+.nav-bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar li{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:var(--main-color);
+    padding:15px;
+    /* 300ms then the hover happens */
+    transition: var(--transition-time);
+}
+
+.nav-link:hover {
+    color:var(--secondary-color);
+}
