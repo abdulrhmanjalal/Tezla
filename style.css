@@ -1,19 +1,19 @@
 /* Global Variables */
 :root{
     --main-color:#740702;
-    --secondary-color:#d62222;
+    --secondary-color:#c70d3a;
     --nit:#545454;
     --border-size:2px;
     --transition-time:300ms;
 }
 /* Over all styling */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap');
+
 
 
 body{
     padding:0;
     margin:0;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
 }
 
 html{
