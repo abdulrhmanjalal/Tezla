@@ -88,3 +88,32 @@ h1{
     color:var(--main-color);
     padding:2% 5%;
 }
+
+.buttons{
+    padding:0 5%;
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--main-color);
+    padding:10px 20px;
+    border:var(--border-size) solid var(--main-color);
+    border-radius: 180px;
+    box-sizing:border-box;
+    transition: var(--transition-time);
+}
+
+.btn:nth-child(1){
+    background:var(--main-color);
+    color:white;
+}
+
+.btn:hover{
+    background:var(--main-color);
+    color:white;
+}
+
+.btn:nth-child(1):hover{
+   background: var(--secondary-color);
+   border-color:var(--secondary-color);
+}
